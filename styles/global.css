@@ -1,0 +1,30 @@
+@import "./font-face";
+
+html,
+body {
+    font-family: "Futura Std";
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #696969;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #2597e2;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
